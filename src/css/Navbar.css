@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+.center{
+    margin-left: 10.5rem;
+}
+.navbar{
+    z-index: 1;
+    position: fixed;
+    background-color: #fff !important;
+    width: 100%;
+    height: 4.5rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+  }
+  .navbar a{
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .menu_active1{
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    color: #ff66ff !important;
+  }
+  .menu_active1:hover{
+    color: #ff66ff !important;
+  }
+  .menu_active{
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    color: #767676 !important;
+  }
+  .menu_active2{
+    font-size: 6px;
+    -webkit-font-smoothing: antialiased;
+    color: #767676 !important;
+  }
+  .menu_active2:hover{
+    color: black !important;
+    background-color: white;
+  }
+  .menu_active3{
+    box-shadow: 0 0 10px #a8a7a7;
+    border: #a8a7a7;
+  }
+  .menu_active3:hover{
+    color: black !important;
+  }
+
+  /*login*/
+  .alogin{
+        color: inherit;
+        text-decoration: inherit;
+        background-color: transparent;
+  }
+
+.secondary-btn {
+    background-color: #fff;
+    font-size: 1rem;
+    --border-opacity: 1;
+    border: 2px solid #4643ee;
+    border-radius: .625rem;
+    color: #4643ee;
+    color: rgba(70,67,238,var(--text-opacity));
+    font-family: LetteraTextLL;
+    font-weight: 700;
+    --text-opacity: 1;
+    line-height: 1.44;
+    height: 2.5rem;
+    margin-left:-663px;
+    padding-right: 35px;
+    padding-left: 35px;
+    outline: 0!important;
+}
+
+/*signup*/
+.signup{
+    color: inherit;
+    text-decoration: inherit;
+    background-color: transparent;
+}
+
+.primary-btn{
+    margin-left: -545px;
+    color: #fff;
+    font-size: 1rem;
+    --border-opacity: 1;
+    border-radius: .625rem;
+    background-color: #4643ee;
+    font-family: LetteraTextLL;
+    font-weight: 700;
+    --text-opacity: 1;
+    line-height: 1.44;
+    height: 2.5rem;
+    padding-top: 8px;
+    padding-bottom: 22px;
+    padding-right: 35px;
+    padding-left: 35px;
+    outline: none;    
+    border: 0 solid #e2e8f0;
+}
